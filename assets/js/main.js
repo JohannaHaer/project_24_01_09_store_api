@@ -10,7 +10,6 @@ let select = document.querySelector("#sort")
 const storeAssortment = (products) => {
     fetch(products)
     .then ((response) => response.json())
-    // .then(json=>console.log(json))
     .then ((data) =>{ 
     
         data.forEach((dataNew) => {
@@ -50,7 +49,7 @@ let electronicalProducts = () => {
 
 document.querySelector("#electronics").addEventListener("click", electronicalProducts)
 
-// Alle Juweleries ausgeben
+// Alle Jeweleries ausgeben
 let jeweleryProducts = () => {
     reset()
     storeAssortment(allJewelery)
