@@ -8,6 +8,9 @@ const allJewelery = "https://fakestoreapi.com/products/category/jewelery"
 
 const gridContainer = document.querySelector("#gridContainer")
 
+const 
+
+
 const storeAssortment = (products) => {
     fetch(products)
     .then ((response) => response.json())
