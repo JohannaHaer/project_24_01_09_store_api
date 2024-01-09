@@ -1,7 +1,7 @@
 ## Fakelando E-Commerce Store
 Ein kleiner E-Commerce Store, der die FakeStoreAPI nutzt, um Produkte anzuzeigen und nach Kategorien zu filtern, sowie nach Preis zu sortieren.
 
-Setup
+# Setup
 Klone das Repository oder lade die Dateien herunter.
 
 Öffne die index.html-Datei in einem Webbrowser.
