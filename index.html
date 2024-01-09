@@ -2,15 +2,34 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" >
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>Store API</title>
 </head>
 <body>
-    <button id="electronics">Electronics</button>
-    <button id="jewelery">Juwelery</button>
-    <button id="mensClothing">Men's Clothing</button>
-    <button id="womensCothing">Women's Clothing</button>
-    <div id="gridContainer"></div>
+    <section class="grayBack">
+        <h1>Fakelando</h1>
+        <section class="searchAndFilter">
+            <div class="searchmask">
+                <input type="text" id="input" class="input" placeholder="Search by title">
+                <select name="" id="sort" class="sort">
+                    <option value="">Sort</option>
+                    <option value="priceAsc">Price (Ascending)</option>
+                    <option value="priceDesc">Price (Descending)</option>
+                </select>
+            </div>
+            <div class="filter">
+                <p class="titleFilter">Filter by Categories:</p>
+                <button id="electronics">Electronics</button>
+                <button id="jewelery">Jewelery</button>
+                <button id="mensClothing">Men's Clothing</button>
+                <button id="womensClothing">Women's Clothing</button>
+            </div>
+        </section>
+        
+        
+        <div id="gridContainer" class="gridContainer"></div>
+    </section>
     <script src="./assets/js/main.js"></script>
 </body>
 </html>
