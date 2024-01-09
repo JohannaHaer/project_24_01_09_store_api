@@ -26,9 +26,9 @@ Die main.js-Datei enthält das JavaScript zur Abfrage der API und Steuerung der 
 Das style.css-Dokument enthält das CSS für das Layout und das Styling der Seite. Mit entsprechendem Media-Query kann die Seite auch Mobil geladen werden.
 
 ## Technologien
-HTML
-CSS
-JavaScript
+HTML,
+CSS,
+JavaScript,
 Nutzung der [FakeStoreAPI](https://fakestoreapi.com/docs)
 
 ## Autorin
