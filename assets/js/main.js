@@ -85,7 +85,7 @@ fetch("https://fakestoreapi.com/products")
         let sortFunc = () => {
             
             if (select.value === 'priceAsc') {
-                let result = products.sort((a, b) => b.price - a.price)
+                let result = products.sort((a, b) => a.price - b.price)
                 reset()
                 result.forEach((dataNew) => {
                     const title = dataNew.title
@@ -100,7 +100,7 @@ fetch("https://fakestoreapi.com/products")
                     </div>`
                 })
             } else if (select.value === 'priceDesc') {
-                let result = products.sort((a, b) => a.price - b.price)
+                let result = products.sort((a, b) => b.price - a.price)
                 reset()
                 result.forEach((dataNew) => {
                     const title = dataNew.title
